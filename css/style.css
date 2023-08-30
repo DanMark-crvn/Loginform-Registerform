@@ -169,10 +169,12 @@ img{
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
+    transition: 0.5s;
     transform: .3s ease;
   }
   
   .submit:hover {
+    color: #050000;
     background-color: var(--accent);
   }
   
