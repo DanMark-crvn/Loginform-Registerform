@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Register</title>
 </head>
 <body>
     <main>
         <section class="register">
-            <img src="img/signup.svg" alt="">
-            <form class="form">
+            <img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="img/signup.svg" alt="">
+            <form data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" class="form">
                 <p class="title">Register </p>
                 <p class="message">Signup now and get full access to the app. </p>
                     <div class="flex">
@@ -43,5 +47,9 @@
             </form>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
